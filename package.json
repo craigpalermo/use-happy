@@ -4,7 +4,9 @@
   "description": "React hook to get an accessible stateful emoticon",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "keywords": [
     "emoticon",
@@ -14,13 +16,23 @@
   "author": "Craig Palermo",
   "license": "ISC",
   "dependencies": {
+    "prettier": "^2.2.1",
     "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "typescript": "^4.1.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@storybook/addon-actions": "^6.1.11",
+    "@storybook/addon-essentials": "^6.1.11",
+    "@storybook/addon-links": "^6.1.11",
+    "@storybook/react": "^6.1.11",
     "@typescript-eslint/eslint-plugin": "^4.10.0",
     "@typescript-eslint/parser": "^4.10.0",
+    "babel-loader": "^8.2.2",
     "eslint": "^7.15.0",
-    "eslint-plugin-react": "^7.21.5"
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "lodash.random": "^3.2.0"
   }
 }
