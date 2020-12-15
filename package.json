@@ -1,0 +1,26 @@
+{
+  "name": "use-happy",
+  "version": "1.0.0",
+  "description": "React hook to get an accessible stateful emoticon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "emoticon",
+    "react",
+    "hooks"
+  ],
+  "author": "Craig Palermo",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.1",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
+    "eslint": "^7.15.0",
+    "eslint-plugin-react": "^7.21.5"
+  }
+}
