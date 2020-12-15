@@ -6,12 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
+    "build": "tsc",
     "build-storybook": "build-storybook"
   },
   "keywords": [
     "emoticon",
     "react",
     "hooks"
+  ],
+  "files": [
+    "dist"
   ],
   "author": "Craig Palermo",
   "license": "ISC",
