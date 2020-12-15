@@ -1,5 +1,5 @@
 import React from "react";
-import { useSad } from "./useSad";
+import { useSad, icons } from "./useSad";
 
 export default {
   title: "useSad",
@@ -14,4 +14,16 @@ export const Basic = () => {
 export const FontSize = () => {
   const sadFace = useSad({ fontSize: "64px" });
   return <div>{sadFace}</div>;
+};
+
+export const AllIcons = () => {
+  return (
+    <>
+      {icons.map((i) => (
+        <span aria-label="Sad face" role="img" key="i">
+          {i}
+        </span>
+      ))}
+    </>
+  );
 };
