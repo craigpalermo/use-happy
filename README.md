@@ -5,11 +5,13 @@
 ## Usage
 
 ```javascript
-import { useHappy, useSad } from "@unscsprt/use-happy";
+import { useHappy, useSad } from "use-happy";
 
 const MyHappyFace = () => {
   const happy = useHappy()
-  const sad = useSad()
+  const sad = useSad({
+    fontSize: "48px",
+  })
   return (<div>
     {happy}
     {sad}
