@@ -2,6 +2,8 @@
 
 > A slightly overengineered React hook to render a random, accessible emoticon from a small and predictable set of icons.
 
+See [Storybook](https://craigpalermo.github.io/use-happy/) for examples.
+
 ## Usage
 
 ```javascript
