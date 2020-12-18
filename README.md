@@ -1,6 +1,10 @@
 # `use-happy`
 
+[![npm version](https://badge.fury.io/js/use-happy.svg)](https://badge.fury.io/js/use-happy)
+
 > A slightly overengineered React hook to render a random, accessible emoticon from a small and predictable set of icons.
+
+See [Storybook](https://craigpalermo.github.io/use-happy/) for examples.
 
 ## Usage
 
