@@ -1,6 +1,6 @@
 {
   "name": "use-happy",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "React hook to get an accessible stateful emoticon",
   "main": "dist/index.js",
   "scripts": {
